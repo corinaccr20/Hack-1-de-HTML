@@ -3,76 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HACK-1 | Línea de Tiempo MySQL</title>
+    <title>HACK-1 | Línea de Tiempo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div class="bg-overlay"></div>
 
-    
     <div class="container">
         
         <div class="main-title">
-            <h1>ESQUEMA <span>LÍNEA DE TIEMPO</span> MYSQL</h1>
+            <h1>HACK-1:1</h1>
+            <p>docs markdown 1 | markdown 2 | archivos de salud</p>
+            <p class="sub">docs comandos git | conventional commit</p>
         </div>
 
-       
-        <div class="timeline">
+        
+        <div class="timeline-horizontal">
             
-            <div class="timeline-item left">
-                <div class="content-card">
-                    <h3>main</h3>
-                    <p>Versión estable</p>
-                    <small>producción</small>
+            
+            <div class="timeline-card">
+                <div class="card-inner">
+                    <h3>docs</h3>
+                    <p>markdown 1</p>
+                    <p>markdown 2</p>
+                    <p>archivos de salud</p>
                 </div>
-                <div class="dot"></div>
+                <div class="connector"></div>
             </div>
 
             
-            <div class="timeline-item right">
-                <div class="dot"></div>
-                <div class="content-card">
-                    <h3>develop</h3>
-                    <p>Integración continua</p>
-                    <small>desarrollo</small>
+            <div class="timeline-card">
+                <div class="card-inner">
+                    <h3>docs</h3>
+                    <p>comandos git</p>
+                    <p>conventional commit</p>
                 </div>
+                <div class="connector"></div>
             </div>
 
             
-            <div class="timeline-item left">
-                <div class="content-card">
-                    <h3>feature/hack-1</h3>
-                    <p>Rama de trabajo</p>
-                    <small>feature</small>
+            <div class="timeline-card large">
+                <div class="card-inner">
+                    <h3>debés crear por cada hack un</h3>
+                    <p>PULL_REQUEST_TEMPLATE</p>
+                    <p>y un flujo de tres ramas</p>
+                    <p><strong>main / develop / tus feature</strong></p>
                 </div>
-                <div class="dot"></div>
+                <div class="connector"></div>
             </div>
 
             
-            <div class="timeline-item right">
-                <div class="dot"></div>
-                <div class="content-card">
-                    <h3>conventional commit</h3>
-                    <p>feat: add template</p>
-                    <small>fix: styles</small>
+            <div class="timeline-card">
+                <div class="card-inner">
+                    <h3>- Clonar el repositorio</h3>
+                    <p>Definir un contenido en el README.md</p>
+                    <p>con la siguiente estructura:</p>
+                    <small>(título con el número del hack)</small>
                 </div>
+                <div class="connector"></div>
             </div>
 
             
-            <div class="timeline-item left">
-                <div class="content-card">
+            <div class="timeline-card">
+                <div class="card-inner">
                     <h3>PULL_REQUEST_TEMPLATE</h3>
-                    <p>Plantilla para PR</p>
-                    <small>markdown</small>
+                    <p><strong>Tecnología</strong></p>
+                    <p>- HTML</p>
+                    <p>- CSS3</p>
+                    <p>- docs</p>
+                    <p><strong>Seleccione el tipo de actividad</strong></p>
+                    <p>Feature | Changes | Hotfix | Refactor | Performance | Testing</p>
                 </div>
-                <div class="dot"></div>
+                <div class="connector"></div>
             </div>
         </div>
 
         
-        <div class="footer-git">
-            <p>git checkout -b feature/hack-1 | git add . | git commit -m "feat: hack-1"</p>
+        <div class="tips-section">
+            <h4>#TIPS</h4>
+            <p>1) Los hacks son individuales, ten encuentra el apoyo de tu equipo.</p>
+            <p>2) Detectar elementos flotantes clear:both | right | left;</p>
+            <p>3) Background Image: position relative/absolute, z-index: -1</p>
         </div>
     </div>
 </body>
