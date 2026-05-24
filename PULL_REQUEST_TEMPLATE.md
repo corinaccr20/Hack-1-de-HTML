@@ -1,14 +1,27 @@
-PULL_REQUEST_TEMPLATE
+# Pull Request Template - HACK-1
 
-Tecnología
-- HTML
-- CSS3
-- docs
+## Tecnología
+- [x] HTML
+- [x] CSS3
+- [ ] docs
 
-Seleccione el tipo de actividad
-- Feature
-- Changes
-- Hotfix
-- Refactor
-- Performance
-- Testing.
+## Tipo de actividad
+- [x] Feature
+- [ ] Changes
+- [ ] Hotfix
+- [ ] Refactor
+- [ ] Performance
+- [ ] Testing
+
+## Descripción breve
+¿Qué se implementó en este PR?
+
+## Evidencia
+- [ ] Captura de pantalla
+- [ ] Link de despliegue (si aplica)
+
+## Comandos útiles
+```bash
+git checkout develop
+git pull origin develop
+git merge feature/hack-1

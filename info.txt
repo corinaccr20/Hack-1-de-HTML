@@ -1,2 +1,13 @@
-BLUE: #93B5C9
-WINE: #AB2849
+
+## Flujo de ramas
+1. `main` → producción
+2. `develop` → integración
+3. `feature/hack-1` → desarrollo
+
+## Comandos Git utilizados
+```bash
+git checkout -b develop
+git checkout -b feature/hack-1
+git add .
+git commit -m "feat(hack-1): agregar timeline con position"
+git push origin feature/hack-1

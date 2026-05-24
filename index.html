@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hack1</title>
-    <link rel="stylesheet" href="./style/style.css">
+    <title>HACK-1 | Línea de Tiempo MySQL</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div class="bg-overlay"></div>
+
+    
+    <div class="container">
+        
+        <div class="main-title">
+            <h1>ESQUEMA <span>LÍNEA DE TIEMPO</span> MYSQL</h1>
+        </div>
+
+       
+        <div class="timeline">
+            
+            <div class="timeline-item left">
+                <div class="content-card">
+                    <h3>main</h3>
+                    <p>Versión estable</p>
+                    <small>producción</small>
+                </div>
+                <div class="dot"></div>
+            </div>
+
+            
+            <div class="timeline-item right">
+                <div class="dot"></div>
+                <div class="content-card">
+                    <h3>develop</h3>
+                    <p>Integración continua</p>
+                    <small>desarrollo</small>
+                </div>
+            </div>
+
+            
+            <div class="timeline-item left">
+                <div class="content-card">
+                    <h3>feature/hack-1</h3>
+                    <p>Rama de trabajo</p>
+                    <small>feature</small>
+                </div>
+                <div class="dot"></div>
+            </div>
+
+            
+            <div class="timeline-item right">
+                <div class="dot"></div>
+                <div class="content-card">
+                    <h3>conventional commit</h3>
+                    <p>feat: add template</p>
+                    <small>fix: styles</small>
+                </div>
+            </div>
+
+            
+            <div class="timeline-item left">
+                <div class="content-card">
+                    <h3>PULL_REQUEST_TEMPLATE</h3>
+                    <p>Plantilla para PR</p>
+                    <small>markdown</small>
+                </div>
+                <div class="dot"></div>
+            </div>
+        </div>
+
+        
+        <div class="footer-git">
+            <p>git checkout -b feature/hack-1 | git add . | git commit -m "feat: hack-1"</p>
+        </div>
+    </div>
 </body>
 </html>
